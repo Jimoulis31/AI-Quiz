@@ -72,3 +72,5 @@ You are free to use, modify, and share it — just follow OpenAI’s API usage p
 ---
 
 🙏 ACKNOWLEDGEMENTS
+
+- OpenAI for their powerful GPT models, used to generate the quiz content dynamically.
