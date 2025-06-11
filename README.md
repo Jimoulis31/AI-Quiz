@@ -1,69 +1,74 @@
-# AI-Quiz
-🧠 AI-Generated Quiz Game
-This is a Python-based interactive quiz game that uses OpenAI's GPT model to generate unique yes/no questions in real-time. Each game session includes 5 AI-generated questions, and players are scored based on their answers.
+# 🧠 AI-Generated Quiz Game
 
-🚀 Features
-🔄 Dynamic question generation using OpenAI's GPT-3.5 Turbo
+AI-Generated Quiz Game is a fun and educational Python-based project that uses OpenAI's GPT-3.5 Turbo to dynamically generate yes/no questions. Each round gives the player 5 unique AI-created questions based on a topic they choose. It's perfect for students or anyone looking to test their general knowledge in a playful way!
 
-📚 Customizable quiz categories
+---
 
-✅ Simple yes/no format
+✨ FEATURES
 
-🧠 Appropriate for users up to 18 years old with good general knowledge
+- 🔄 Real-time question generation using OpenAI GPT-3.5 Turbo  
+- 📚 Custom categories — you choose the quiz topic!  
+- ✅ Yes/No format for quick and easy answers  
+- 🎓 Questions designed for learners up to 18 years old  
+- 🏆 Score tracking with high score memory  
+- 🔁 Option to replay the quiz as many times as you want  
 
-🏆 High score tracking
+---
 
-🔁 Option to restart and replay the quiz
+📦 REQUIREMENTS
 
-📦 Requirements
-Python 3.7 or higher
+You need to have Python 3.7 or higher installed.  
+This project requires the OpenAI Python package version 0.28.0.
 
-openai version 0.28.0
-
-Install with:
-
-bash
-Copy
-Edit
+To install it, run:
 pip install openai==0.28.0
-🔑 Setup
-Replace the openai.api_key value in the code with your own OpenAI API key:
 
-python
-Copy
-Edit
+---
+
+🔑 SETUP
+
+Open the Python file and replace the openai.api_key value with your own API key from:
+https://platform.openai.com/account/api-keys
+
+Example:
 openai.api_key = "your-api-key-here"
-⚠️ Important: Never share your real API key publicly (including in public repositories). For security, it's best to store it in an environment variable or a separate config file.
 
-🎮 How to Play
-Run the script:
+⚠️ Important: Never share your API key in public repositories. Use environment variables or external config files to keep it secure.
 
-bash
-Copy
-Edit
-python your_script_name.py
-Enter a quiz category (e.g., history, science, geography).
+---
 
-Answer 5 AI-generated yes/no questions.
+🎮 HOW TO PLAY
 
-See your score and choose to play again or exit.
+1. Run the script with:
+   python your_script_name.py
 
-📌 Example Output
-nginx
-Copy
-Edit
-Welcome to my AI Generated Quiz!
-Choose category: science
-Question 1: Is the sun a star?
-Answer (yes/no): yes
-Correct answer!
-You got a point!
-...
-You got 4 / 5 correct answers!
+2. Enter a category when prompted (e.g., history, science, geography).
+
+3. Answer the 5 AI-generated yes/no questions that follow.
+
+4. Your score will be shown at the end. You’ll also be asked if you want to play again!
+
+---
+
+📌 SAMPLE OUTPUT
+
+Welcome to my AI Generated Quiz!  
+Choose category: science  
+Question 1: Is the sun a star?  
+Answer (yes/no): yes  
+Correct answer!  
+You got a point!  
+...  
+You got 4 / 5 correct answers!  
 Thanks for playing!
-📄 License
-This project is licensed under the MIT License.
-You are free to modify and use it as you wish, but always respect OpenAI's API usage policies.
 
-🙏 Acknowledgements
-OpenAI for providing the powerful language model used to generate questions.
+---
+
+📄 LICENSE
+
+This project is licensed under the MIT License.  
+You are free to use, modify, and share it — just follow OpenAI’s API usage policies.
+
+---
+
+🙏 ACKNOWLEDGEMENTS
