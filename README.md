@@ -1,2 +1,2 @@
 # AI-Quiz
-This is a quiz made with Python. There are rounds in which every round 5 AI Generated yes/no questions are generated and the user answers!
+This is a Python-based quiz game that features multiple rounds. In each round, 5 AI-generated yes/no questions are presented for the user to answer!
